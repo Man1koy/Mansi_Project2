@@ -1,0 +1,13 @@
+.box {
+  background-color: lightgrey;
+  padding: 15px;
+}
+
+.block {
+  display: block;
+}
+
+.memb {
+ background-color: yellow;
+ padding: 10px;
+}
