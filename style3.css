@@ -5,17 +5,18 @@
 body {
   margin: 0;
   font-family: Arial;
+ background-color: lightblue;
 }
 
-.header {
+.header {                                   /*for the header text in the document*/
   text-align: center;
   padding: 32px;
 }
 
 .row {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox; 
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
   padding: 0 4px;
 }
@@ -50,4 +51,10 @@ body {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+.footer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
 }

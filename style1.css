@@ -1,13 +1,44 @@
-.box {
-  background-color: lightgrey;
-  padding: 15px;
+.box {                                                                                                 /*Provided styling to the box division*/
+  background-color: lightgrey;                                                           /*set the background color of the box to light grey*/
+  padding: 15px;                                                                                 /*provided padding of 15px to the box*/
 }
 
 .block {
-  display: block;
+  display: block;                                                                                 /*to display the block*/
 }
 
-.memb {
- background-color: yellow;
- padding: 10px;
+.memb {                                                                                           /*Provided styling to the division named memb*/
+ background-color: orange;                                                            /*set the background color of the division to orange*/
+ padding: 10px;                                                                              /*Applied padding to 10px to the division*/
+}
+
+.footer {                                                                                          /*Footer styling*/
+  background-color: lightyellow;                                                            /*set the footer color to lightyellow */
+  padding: 10px;                                                                           /*set the padding of footer to 10px*/
+  text-align: center;                                                                        /*Aligned the text of the footer to center*/
+} 
+
+.navbar {                                                                                     /*navigation bar styling*/
+  background-color: black;                                                          /*set the backgroung color of navigation bar to black*/
+  overflow: hidden;
+}
+
+
+.navbar a {                                                                              /*setting the navbar attributes styling*/
+  float: left;                                                                              /*towards the left of the page*/
+  color: red;                                                                            /*set color to red*/
+  text-align: center;                                                                 /*aligned the text to the center*/
+  padding: 14px 16px;                                                            /*Applied the padding*/
+  text-decoration: none;
+  font-size: 14px;                                                                 /*set the font size to 14px*/
+}
+
+
+.navbar a:hover {                                                                /*Provided styling to the navigation bar elements when hovered on the tabs of the navigation bar*/
+  background-color: grey;                                                    /*Set the background color to grey when hover over the tab*/
+  color: black;
+}
+
+h2 {
+text-align: center;
 }

@@ -13,7 +13,9 @@ div {
   display: block;
 }
 
-
+h2 {
+ text-align: center;
+}
 
 table, th, td {
     border: 1px solid black;
@@ -26,7 +28,28 @@ table {
 }
 
 .footer {
-  background-color: #f1f1f1;
-  padding: 20px;
+  background-color: lightyellow;
+  padding: 10px;
   text-align: center;
+}
+
+
+.navbar {                                                                                          /*navigation bar styling*/
+  background-color: black;                                                               /*set the backgroung color of navigation bar to black*/
+  overflow: hidden;
+}
+
+
+.navbar a {                                                                                     /*setting the navbar attributes styling*/
+  float: left;                                                                                      /*towards the left of the page*/
+  color: red;                                                                                     /*set color to red*/
+  text-align: center;                                                                          /*aligned the text to the center*/
+  padding: 14px 16px;                                                                     /*Applied the padding*/
+  text-decoration: none;
+  font-size: 14px;                                                                              /*set the font size to 14px*/
+}
+
+.navbar a:hover {                                                                      /*Provided styling to the navigation bar elements when hovered on the tabs of the navigation bar*/
+  background-color: grey;                                                         /*Set the background color to grey when hover over the tab*/
+  color: black;                                                                   
 }
